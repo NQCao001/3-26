@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit</title>
+</head>
+<body>
+<h1>Edit HomeStay</h1>
+<form method="post" action="">
+  <p>Ten: <input type="text" name="name"></p>
+  <label class="input-group-text" for="inputGroupSelect01">Thanh pho</label>
+  <select class="form-select" id="inputGroupSelect01"name="idCity">
+    <option selected>City</option>
+    {cities}
+  </select>
+  <p>So phong ngu: <input type="number" name="bedroom"></p>
+  <p>So phong WC: <input type="number" name="wc"></p>
+  <p>Gia: <input type="number" name="price"></p>
+  <p>Mo ta: <input type="text" name="description"></p>
+  <button type="submit">Chinh sua</button><br>
+</form>
+<a href="/"><button type="submit" >Thoat</button></a>
+</body>
+</html>
